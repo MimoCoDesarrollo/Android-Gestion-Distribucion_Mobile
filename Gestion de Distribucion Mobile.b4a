@@ -1,0 +1,635 @@
+﻿Build1=Default,JHS.zxScannerLiveView
+File1=activityPantallaPrincipal.bal
+File10=Cerrar-Activo.png
+File11=Cerrar-Inactivo.png
+File12=CodigoBarras.png
+File13=coleccion.png
+File14=config.png
+File15=confirmar_activo.png
+File16=confirmar_inactivo.png
+File17=connection-sync.png
+File18=ContenidoEncabezado.bal
+File19=cruz.png
+File2=B4XTableSelections.bas
+File20=cruz2.gif
+File21=enter-2.png
+File22=enter-key_1.png
+File23=enter-pin.png
+File24=Escanear_1.png
+File25=icons8-borrar-48.png
+File26=ImgLogin.png
+File27=itemRemito.bal
+File28=itemRemito2.bal
+File29=minus.png
+File3=barcode-scanner (1).png
+File30=Pantalla_Principal.bal
+File31=perrito.png
+File32=Perro-Gato.png
+File33=planilladetalle.bal
+File34=planillaslistado.bal
+File35=plus.png
+File36=prohibido.png
+File37=prueba.bal
+File38=tilde.png
+File39=tilde2.gif
+File4=barcode-scanner.png
+File40=Volver_Activo.png
+File41=Volver_Inactivo.png
+File42=zoom_32x32.png
+File5=BotonFLECHAABA.gif
+File6=BotonFLECHAARR.gif
+File7=BotonIMPRIMIR.gif
+File8=BotonMAS.gif
+File9=BotonREFRESCAR.gif
+FileGroup1=Default Group
+FileGroup10=Iconos
+FileGroup11=Nuevo Grupo
+FileGroup12=Default Group
+FileGroup13=Iconos
+FileGroup14=Default Group
+FileGroup15=Iconos
+FileGroup16=Nuevo Grupo
+FileGroup17=Iconos
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Iconos
+FileGroup24=Default Group
+FileGroup25=Iconos
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Iconos
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Iconos
+FileGroup40=Nuevo Grupo
+FileGroup41=Nuevo Grupo
+FileGroup42=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=b4xcollections
+Library10=stringutils
+Library11=xcustomlistview
+Library12=xui
+Library13=zxscannerliveview
+Library14=sql
+Library2=b4xtable
+Library3=core
+Library4=javaobject
+Library5=jdbcsql
+Library6=json
+Library7=keyvaluestore
+Library8=okhttputils2
+Library9=phone
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="29"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~	~\n~AddManifestText(<uses-feature android:name="android.hardware.telephony" android:required="false" />)~\n~AddManifestText(<uses-feature android:name="android.hardware.camera" android:required="true" />)~\n~AddManifestText(<uses-feature android:name="android.hardware.camera.autofocus" android:required="true" />)~\n~AddManifestText(<uses-feature android:name="android.hardware.camera.flash" android:required="false" />)~\n~'AddPermission("android.permission.ACCESS_COARSE_LOCATION")~\n~AddPermission("android.permission.INTERNET")~\n~AddPermission("android.permission.ACCESS_FINE_LOCATION")~\n~AddPermission("android.permission.WAKE_LOCK")~\n~AddPermission("android.permission.DEVICE_POWER")~\n~'AddPermission("android.permission.ACCESS_COARSE_UPDATES")~\n~AddPermission("android.permission.READ_PHONE_STATE")~\n~AddPermission("android.permission.VIBRATE")~\n~AddPermission("android.permission.CAMERA")~\n~AddPermission("android.permission.FLASHLIGHT")~\n~AddPermission("android.hardware.camera")~\n~	~\n~AddPermission("android.permission.WRITE_EXTERNAL_STORAGE")	~\n~AddPermission("android.permission.READ_EXTERNAL_STORAGE")~\n~	~\n~	~\n~	~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=B4XTableSelections
+Module2=DatosGlobales
+Module3=EditBox
+Module4=FxGlobales
+Module5=mod_Conexion
+Module6=PlanillaDetalle
+Module7=PlanillasListado
+Module8=Starter
+NumberOfFiles=42
+NumberOfLibraries=14
+NumberOfModules=8
+Version=12.2
+@EndOfDesignText@
+#Region  Project Attributes 
+	' --> ESTE (ApplicationLabel) SERÁ EL NOMBRE QUE SE MOSTRARÁ DE LA APLICACION
+	#ApplicationLabel: Gestion de Distribucion Mobile
+	
+	' --> VersionCode: NUMERO DE VERSIÓN ES UN NUMERO ENTERO
+	#VersionCode: 1
+	
+	' --> VersionName: ESTA ES LA SUBVERSIÓN Y NO ES NECESARIO QUE SEA UN NUMERO ENTERO
+	#VersionName: 1.1
+	
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	'  SupportedOrientations: unspecified --> NO ESTA ESPECIFICADO PARA UN MODO ESPECIFICO (funciona tanto para "landscape" o "portrait") los modos posibles: unspecified/landscape/portrait
+
+	#SupportedOrientations: portrait
+	'#SupportedOrientations: unspecified
+	
+	
+	'SI SE PUEDE INSTLAR O NO EN EL ALMACENAMIENTO INTERNO (si esta en true puedo instalarla en la memoria externa)
+	#CanInstallToExternalStorage: False
+	
+	
+	
+	#AdditionalJar: jtds-1.3.1.jar
+	
+#End Region
+
+
+
+#Region  Activity Attributes 
+	
+	'FullScreen: si esta en true ocupara toda la pantalla y no se mostrará la barra del celular o table
+	#FullScreen: False
+	
+	'IncludeTitle muestra el título de las activities
+	#IncludeTitle: False
+	
+#End Region
+
+
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	
+	'Private xui As XUI
+	
+	Dim Awake As PhoneWakeState
+	
+	Private xui As XUI
+	Public Modo As String = "TEST"
+	
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	
+	Private EtUsuario As EditText
+	Private EtPassword As EditText
+	Private BtnLogin As Button
+	Private PanelPrincipal As Panel
+	Private BtnConfiguracion As Button
+	
+	Private EsPrimeraVez As Boolean = True
+	
+	Private PanelConfiguracion As Panel
+	Private BtnGuardarConfig As Button
+	Private edtServer As EditText
+	Private edtDatabase As EditText
+	Private edtUser As EditText
+	Private edtPassword As EditText
+	Private edtPort As EditText
+	Private RbTest As RadioButton
+	Private RbProd As RadioButton
+	Private LblAmbiente As Label
+
+	'Dim Equipo As Phone 'desde que se puso esto dejo de andar en las tablets
+	
+	Private BtnLog As Button
+	Private BtnEliminarArchivo As Button
+End Sub
+
+Sub activity_create(firsttime As Boolean)
+	
+	Try
+		'Activity.loadlayout("layout")
+	
+		Activity.LoadLayout("Pantalla_Principal")
+
+		PanelConfiguracion.Visible = False
+		BtnConfiguracion.Visible = False
+	
+
+'		DatosGlobales.CodUsuario = "admin"
+'		EtUsuario.Text = DatosGlobales.CodUsuario
+'		EtPassword.Text = "1046147"
+
+		DatosGlobales.CodUsuario = ""
+		EtUsuario.Text = DatosGlobales.CodUsuario
+		EtPassword.Text = ""
+
+		CargarAmbiente
+		FxGlobales.DesactivarModoEstricto
+		mod_Conexion.Conexion()
+		Awake.KeepAlive(True) 'para q no se apague
+		
+		
+		
+		'DatosGlobales.NombreDispositivo = Equipo.Product 'desde que se puso esto dejo de andar en las tablets. ASI QUE LO COMENTO POR AHORA
+		DatosGlobales.NombreDispositivo = ""
+		'Msgbox("Manufacturer: " & Equipo.Manufacturer & CRLF & "Modelo: " & Equipo.Model & CRLF & "Nombre del dispositivo: " & DatosGlobales.NombreDispositivo, "Mensaje del sistema")
+			
+			
+		'Log("Se creo el activity")		
+		GuardarLog("Se creo el activity")
+			
+	Catch
+		Msgbox("#ERROR: " & LastException, "Mensaje del sistema")
+		GuardarLog("#ERROR: " & LastException)
+		Log(LastException)
+	End Try
+	
+
+End Sub
+
+
+
+
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Private Sub BtnLogin_Click
+	
+	Try
+	
+		GuardarLog("Clickeo para loguear")
+	
+	
+		Dim usuarioValido As Boolean = False
+		Dim pswValida As Boolean = False
+		Dim Autoriza As Boolean = False
+			
+		If(EtUsuario.Text = "") Then
+			ToastMessageShow("No se ha ingresado un usuario válido.", True)
+		Else
+			usuarioValido = True
+		End If
+
+		If(EtPassword.Text = "") Then
+			
+			If usuarioValido = True Then
+				'Log("No se ha ingresado una clave válida.")
+				'Msgbox("No se ha ingresado una clave válida para el usuario: " & EtUsuario.Text, "ATENCION")
+				ToastMessageShow("No se ha ingresado una clave válida para el usuario: " & EtUsuario.Text, True)
+				
+				GuardarLog("No se ha ingresado una clave válida para el usuario: " & EtUsuario.Text)
+				
+			End If
+			
+		Else
+			pswValida = True
+		End If
+			
+		If usuarioValido = True And pswValida=True Then
+			'Log("Logeo exitoso para el usuario: " & EtUsuario.Text)
+			'Msgbox("Usuario:" & EtUsuario.Text & " Contraseña: " & EtPassword.Text, "ATENCION")
+			
+			
+			If EsPrimeraVez = True Then
+				If ((EtUsuario.Text).ToUpperCase = "ADMIN") Or ((EtUsuario.Text).ToUpperCase = "ADMINAUTO") Then
+					BtnConfiguracion.Visible = True
+					EsPrimeraVez = False
+					Return
+				End If
+			End If
+						
+			
+			
+			
+			'##############################################################################################################################################
+			' LLAMADO A SERVIDOR DE BASE DE DATOS
+			
+			Dim unUsuario As String = EtUsuario.Text
+			Dim unaContraseña As String = EtPassword.Text
+				
+			Dim Cursor As JdbcResultSet
+			Dim unSP As String = "EXEC SP_MOBILE_GESTION_DE_DISTRIBUCION_LOGIN '" & unUsuario & "', '" & unaContraseña & "'"
+			
+			Cursor = mod_Conexion.sql1.ExecQuery(unSP)
+			Do While Cursor.NextRow
+				If (Cursor.GetInt("RESULTADO") > 0) Then
+					
+					DatosGlobales.IdUsuario = Cursor.GetString("IDUSUARIO")
+					DatosGlobales.CodUsuario = Cursor.GetString("CODUSUARIO")
+					DatosGlobales.DescUsuario = Cursor.GetString("DESCUSUARIO")
+					
+					Autoriza = True
+				End If
+			Loop
+			
+			Cursor.Close
+			
+			'Autoriza = True
+			'Autoriza = False
+			
+			' FIN DEL LLAMADO A SERVIDOR DE BASE DE DATOS
+			'##############################################################################################################################################
+			
+			
+			
+			If Autoriza = True Then
+				
+				GuardarLog("Logeo correctamente para el usuario: " & EtUsuario.Text)
+				
+				StartActivity(PlanillasListado)
+						
+				Activity.Finish
+				
+			Else
+				ToastMessageShow("#ERROR: usuario o clave incorrecta.", True)
+				GuardarLog("#ERROR: usuario o clave incorrecta para el usuario: " & EtUsuario.Text)
+			End If
+			
+			
+		End If
+
+
+
+	Catch
+		ToastMessageShow("#ERROR: ha ocurrido un error no controlado. - " & LastException  , True)
+		GuardarLog("#ERROR: ha ocurrido un error no controlado. - " & LastException)
+	End Try
+
+
+	
+End Sub
+
+
+
+
+Private Sub GuardarLog(unMensaje As String)
+	Dim fechaHoraTexto As String = ""
+	DateTime.TimeFormat="dd/MM/yyyy HH:mm:ss"
+	fechaHoraTexto = DateTime.Time(DateTime.Now)
+		
+	'Dim DirFile As String = File.DirInternal '& "\LogAplicacion.txt"
+		
+	Dim LineaLog As String = " - " & fechaHoraTexto  & " - " & unMensaje '& CRLF
+	
+	Dim Resultado As String
+'	Resultado = File.ReadString(File.DirInternal, "LogAplicacion.txt")
+'	Resultado = Resultado & CRLF & LineaLog
+	
+	'File.WriteString(File.DirInternal, "LogAplicacion.txt", Resultado)
+	
+	Log("LOG LINEA GUARDADA --> " & LineaLog)
+	
+	'Log( File.ReadString(DirFile,"LogAplicacion.txt"))
+	
+End Sub
+
+
+
+
+#Region "Ambientes"
+
+
+	Private Sub BtnConfiguracion_Click
+		
+	xui.SetDataFolder("kvs")
+	Dim kvs As KeyValueStore
+	kvs.Initialize(xui.DefaultFolder, "kvs.dat")
+
+	If kvs.get("TEST_Server") = Null Then
+		kvs.put("TEST_Server", "//192.168.1.32")
+	End If
+	If kvs.get("TEST_Database") = Null Then
+		kvs.put("TEST_Database", "SIGMAMIRROR")
+	End If
+	If kvs.get("TEST_User") = Null Then
+		kvs.put("TEST_User", "sa")
+	End If
+	If kvs.get("TEST_Password") = Null Then
+		kvs.put("TEST_Password", "1046mimo")
+	End If
+	If kvs.get("TEST_Port") = Null Then
+		kvs.put("TEST_Port", ":1433")
+	End If
+
+	If kvs.get("PROD_Server") = Null Then
+		kvs.put("PROD_Server", "//192.168.1.20")
+	End If
+	If kvs.get("PROD_Database") = Null Then
+		kvs.put("PROD_Database", "SIGMA")
+	End If
+	If kvs.get("PROD_User") = Null Then
+		kvs.put("PROD_User", "sa")
+	End If
+	If kvs.get("PROD_Password") = Null Then
+		kvs.put("PROD_Password", "1046mimo")
+	End If
+	If kvs.get("PROD_Port") = Null Then
+		kvs.put("PROD_Port", ":1433")
+	End If
+
+	If kvs.get("Modo") = Null Then
+		kvs.put("Modo", "TEST")
+		Modo = "TEST"
+	Else
+		Modo = kvs.get("Modo")
+	End If
+
+
+	Setear_Valores
+		
+		
+		PanelConfiguracion.Visible = True
+
+	
+		Log("UBICACION: " & CRLF & xui.DefaultFolder)
+		
+		Log("TEST: " & CRLF & kvs.Get("TEST_Server") & CRLF & kvs.Get("TEST_Database") & CRLF & kvs.Get("TEST_User") & CRLF & kvs.Get("TEST_Password") & CRLF & kvs.Get("TEST_Port"))
+
+		Log("PRODUCTIVO: " & CRLF & kvs.Get("PROD_Server") & CRLF & kvs.Get("PROD_Database") & CRLF & kvs.Get("PROD_User") & CRLF & kvs.Get("PROD_Password") & CRLF & kvs.Get("PROD_Port") )
+			
+		
+	End Sub
+
+
+	Private Sub Setear_Valores
+		xui.SetDataFolder("kvs")
+		Dim kvs As KeyValueStore
+		kvs.Initialize(xui.DefaultFolder, "kvs.dat")
+
+		'Dim Modo As String = kvs.Get("Modo")
+		Select Modo
+			Case "TEST"
+				edtServer.Text = kvs.Get("TEST_Server")
+				edtDatabase.Text = kvs.Get("TEST_Database")
+				edtUser.Text = kvs.Get("TEST_User")
+				edtPassword.Text = kvs.Get("TEST_Password")
+				edtPort.Text = kvs.Get("TEST_Port")
+				RbTest.Checked = True
+				RbProd.Checked = False
+			Case "PROD"
+				edtServer.Text = kvs.Get("PROD_Server")
+				edtDatabase.Text = kvs.Get("PROD_Database")
+				edtUser.Text = kvs.Get("PROD_User")
+				edtPassword.Text = kvs.Get("PROD_Password")
+				edtPort.Text = kvs.Get("PROD_Port")
+				RbTest.Checked = False
+				RbProd.Checked = True
+			Case Else
+				Msgbox("Error en datos de la aplicacion", "Mensaje del sistema")
+				ExitApplication
+		End Select
+	End Sub
+
+
+
+
+	Private Sub BtnGuardarConfig_Click
+	
+		xui.SetDataFolder("kvs")
+		Dim kvs As KeyValueStore
+		kvs.Initialize(xui.DefaultFolder, "kvs.dat")
+
+		Select Modo
+			Case "TEST"
+				kvs.put("TEST_Server", edtServer.Text)
+				kvs.put("TEST_Database", edtDatabase.Text)
+				kvs.put("TEST_User", edtUser.Text)
+				kvs.put("TEST_Password", edtPassword.Text)
+				kvs.put("TEST_Port", edtPort.Text)
+				kvs.put("Modo", "TEST")
+			Case "PROD"
+				kvs.put("PROD_Server", edtServer.Text)
+				kvs.put("PROD_Database", edtDatabase.Text)
+				kvs.put("PROD_User", edtUser.Text)
+				kvs.put("PROD_Password", edtPassword.Text)
+				kvs.put("PROD_Port", edtPort.Text)
+				kvs.put("Modo", "PROD")
+			Case Else
+				Msgbox("Error en datos de la aplicacion", "Mensaje del sistema")
+				'ExitApplication
+				Return
+		End Select
+		Msgbox("Datos Guardados", "Mensaje del sistema")
+
+		Select Modo
+			Case "TEST"
+				mod_Conexion.sIp = kvs.Get("TEST_Server")
+				mod_Conexion.sDatabase = kvs.Get("TEST_Database")
+				mod_Conexion.sUser = kvs.Get("TEST_User")
+				mod_Conexion.sPassword = kvs.Get("TEST_Password")
+				mod_Conexion.sPort = kvs.Get("TEST_Port")
+			Case "PROD"
+				mod_Conexion.sIp = kvs.Get("PROD_Server")
+				mod_Conexion.sDatabase = kvs.Get("PROD_Database")
+				mod_Conexion.sUser = kvs.Get("PROD_User")
+				mod_Conexion.sPassword = kvs.Get("PROD_Password")
+				mod_Conexion.sPort = kvs.Get("PROD_Port")
+			Case Else
+				Msgbox("Error en datos de la aplicacion", "Mensaje del sistema")
+				'ExitApplication
+				Return
+		End Select
+
+		CargarAmbiente
+
+		mod_Conexion.Conexion()
+					
+		PanelConfiguracion.Visible = False
+		
+	End Sub
+
+
+	Private Sub CargarAmbiente
+		
+		xui.SetDataFolder("kvs")
+		Dim kvs As KeyValueStore
+		kvs.Initialize(xui.DefaultFolder, "kvs.dat")
+
+		Dim Modo As String
+		If kvs.get("Modo") = Null Then
+			'StartActivity(Configuracion)
+		Else
+			Modo = kvs.get("Modo")
+		End If
+		
+		LblAmbiente.Text = "  Ambiente: Producción"
+		If Modo = "TEST" Then
+			LblAmbiente.Text = "  Ambiente: TEST"
+			DatosGlobales.EsProduccion = False
+		Else
+			DatosGlobales.EsProduccion = True
+		End If
+
+		Select Modo
+			Case "TEST"
+				mod_Conexion.sIp = kvs.Get("TEST_Server")
+				mod_Conexion.sDatabase = kvs.Get("TEST_Database")
+				mod_Conexion.sUser = kvs.Get("TEST_User")
+				mod_Conexion.sPassword = kvs.Get("TEST_Password")
+				mod_Conexion.sPort = kvs.Get("TEST_Port")
+			Case "PROD"
+				mod_Conexion.sIp = kvs.Get("PROD_Server")
+				mod_Conexion.sDatabase = kvs.Get("PROD_Database")
+				mod_Conexion.sUser = kvs.Get("PROD_User")
+				mod_Conexion.sPassword = kvs.Get("PROD_Password")
+				mod_Conexion.sPort = kvs.Get("PROD_Port")
+			Case Else
+				'si el archivo no existe se redirecciona a la pantalla de configuracion
+				Msgbox("Error en datos de la aplicacion", "Mensaje del sistema")
+				'ExitApplication
+				'Return
+				
+			BtnConfiguracion_Click
+				
+		End Select
+
+	End Sub
+
+	Private Sub RbTest_CheckedChange(Checked As Boolean)
+		If Checked Then
+			Modo = "TEST"
+			Setear_Valores
+		End If
+	End Sub
+
+	Private Sub RbProd_CheckedChange(Checked As Boolean)
+		If Checked Then
+			Modo = "PROD"
+			Setear_Valores
+		End If
+	End Sub
+
+
+
+#End Region
+
+
+
+
+
+
+Private Sub BtnLog_Click
+	
+	'File.WriteString(File.DirInternal, "LogAplicacion.txt", LineaLog)
+	
+	Dim Resultado As String
+	Resultado = File.ReadString(File.DirInternal, "LogAplicacion.txt")
+	
+	
+	
+	Log(File.DirInternal)
+	Log(Resultado)
+	
+	
+	Msgbox(Resultado, "Mensaje del sistema")
+	
+	
+End Sub
+
+Private Sub BtnEliminarArchivo_Click
+	
+	File.Delete(xui.DefaultFolder, "kvs.dat")
+		
+	If File.Exists(xui.DefaultFolder, "kvs.dat") Then
+		Msgbox("El archivo existe", "Mensaje del sistema")
+	Else
+		Msgbox("El archivo NO existe", "Mensaje del sistema")
+	End If
+	
+	
+End Sub

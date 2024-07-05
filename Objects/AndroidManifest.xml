@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="JHS.zxScannerLiveView"
+	android:versionCode="1"
+	android:versionName="1.1"
+	android:installLocation="internalOnly">
+	
+	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="29"/>
+	<supports-screens android:largeScreens="true" 
+	    android:normalScreens="true" 
+	    android:smallScreens="true" 
+	    android:anyDensity="true"/>
+	<uses-feature android:name="android.hardware.telephony" android:required="false" />
+	<uses-feature android:name="android.hardware.camera" android:required="true" />
+	<uses-feature android:name="android.hardware.camera.autofocus" android:required="true" />
+	<uses-feature android:name="android.hardware.camera.flash" android:required="false" />
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.DEVICE_POWER"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+	<uses-permission android:name="android.hardware.camera"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<application
+		android:icon="@drawable/icon"
+		android:label="Gestion de Distribucion Mobile"
+		android:theme="@style/LightTheme">
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".main"
+			android:label="Gestion de Distribucion Mobile"
+			android:screenOrientation="portrait"
+			android:exported="true">
+			<intent-filter>
+			   <action android:name="android.intent.action.MAIN" />
+			   <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			
+		</activity>
+		<service
+			android:name=".starter"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".starter$starter_BR"
+			android:exported="true">
+		</receiver>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".planillaslistado"
+			android:label="Gestion de Distribucion Mobile"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".planilladetalle"
+			android:label="Gestion de Distribucion Mobile"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<service
+			android:name=".httputils2service"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".httputils2service$httputils2service_BR"
+			android:exported="true">
+		</receiver>
+	</application>
+</manifest>

@@ -1,0 +1,142 @@
+--release
+--output
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects
+--lib
+C:\Andorid\resources_06_21\platforms\android-30\android.jar
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-b4ashared-63810086728000\dex_v1\b4ashared.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-core-63810086728000\dex_v1\core.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-javaobject-63810086728000\dex_v1\javaobject.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-jdbcsql-63630420708000\dex_v1\jdbcsql.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-json-63810086728000\dex_v1\json.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-phone-63810086730000\dex_v1\phone.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-stringutils-63810086730000\dex_v1\stringutils.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-xcustomlistview-63810086730000\dex_v1\xcustomlistview.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-xui-63810086730000\dex_v1\xui.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-zxscannerliveview-63726025566362\dex_v1\zxscannerliveview.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-sql-63810086730000\dex_v1\sql.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-android-support-v4-63576366188000\dex_v1\android-support-v4.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-core-3.1.0-63582552042000\dex_v1\core-3.1.0.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-bitmapcreator-63810086728000\dex_v1\bitmapcreator.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-dateutils-63810086728000\dex_v1\dateutils.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-ime-63810086728000\dex_v1\ime.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-randomaccessfile-63810086730000\dex_v1\randomaccessfile.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-okhttp-63810086730000\dex_v1\okhttp.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-okhttp-4.9.0-63810086730000\dex_v1\okhttp-4.9.0.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-okio-2.8.0-63810086730000\dex_v1\okio-2.8.0.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-okhttp-urlconnection-4.9.3-63810086730000\dex_v1\okhttp-urlconnection-4.9.3.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-kotlin-stdlib-1.6.10-63810086730000\dex_v1\kotlin-stdlib-1.6.10.zip
+C:\Andorid\resources_06_21\tools\..\extras\b4a_local\unpacked-jtds-1.3.1-63517780094000\dex_v1\jtds-1.3.1.zip
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\animatedcounter.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\anotherprogressbar$ResumableSub_BusyLoop.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\anotherprogressbar.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xbitset.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xbreadcrumb.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xbytesbuilder.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xcache$_b4xcacheitem.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xcache.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xcollections.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xcolortemplate$ResumableSub_Show.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xcolortemplate$_colorpickerpart.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xcolortemplate.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xcombobox$ResumableSub_RaiseEvent.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xcombobox.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xcomparatorsort.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xdatetemplate$ResumableSub_Show.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xdatetemplate.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xdialog$ResumableSub_Show.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xdialog$ResumableSub_ShowCustom.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xdialog$ResumableSub_ShowTemplate.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xdialog.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xfloattextfield$ResumableSub_SwitchFromPasswordToRegular.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xfloattextfield.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xformatter$_b4xformatdata.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xformatter.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4ximageview.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xinputtemplate$ResumableSub_Show.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xinputtemplate.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xlisttemplate$ResumableSub_Show.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xlisttemplate.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xloadingindicator$ResumableSub_MainLoop.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xloadingindicator.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xlongtexttemplate.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xorderedmap.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xplusminus$ResumableSub_StartDownLoop.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xplusminus.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xradiobutton$ResumableSub_SetValueImpl.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xradiobutton.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xsearchtemplate$ResumableSub_Show.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xsearchtemplate.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xseekbar.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xset.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xsignaturetemplate.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xswitch$ResumableSub_SetValueImpl.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xswitch.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xtable$ResumableSub_CellClicked.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xtable$ResumableSub_Clear.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xtable$ResumableSub_DesignerCreateView.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xtable$ResumableSub_ImplUpdateDataFromQuery.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xtable$ResumableSub_SearchField_TextChanged.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xtable$ResumableSub_SetData.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xtable$_b4xtablecolumn.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xtable.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xtableselections.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xtimedtemplate$ResumableSub_Show.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\b4xtimedtemplate.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\datosglobales.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\editbox$_cinputbox.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\editbox.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\fxglobales.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\httpjob$_multipartfiledata.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\httpjob.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\httputils2service$1.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\httputils2service$2.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\httputils2service$httputils2service_BR.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\httputils2service.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\keyvaluestore$ResumableSub_GetMapAsync.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\keyvaluestore$ResumableSub_PutMapAsync.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\keyvaluestore.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\madewithlove.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\main$1.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\main$B4AMenuItemsClickListener.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\main$HandleKeyDelayed.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\main$ResumeMessage.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\main$WaitForLayout.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\main.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\mod_conexion.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planilladetalle$1.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planilladetalle$B4AMenuItemsClickListener.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planilladetalle$HandleKeyDelayed.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planilladetalle$ResumeMessage.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planilladetalle$WaitForLayout.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planilladetalle.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planillaslistado$1.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planillaslistado$B4AMenuItemsClickListener.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planillaslistado$HandleKeyDelayed.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planillaslistado$ResumeMessage.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planillaslistado$WaitForLayout.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\planillaslistado.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\R$drawable.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\R$id.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\R$layout.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\R$raw.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\R$string.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\R$style.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\R.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\roundslider.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\scrollinglabel$ResumableSub_StartScrolling.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\scrollinglabel.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\starter$1.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\starter$2.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\starter$starter_BR.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\starter.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\swiftbutton.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\xuiviewsutils.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\designerscripts\LS_activitypantallaprincipal.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\designerscripts\LS_contenidoencabezado.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\designerscripts\LS_itemremito.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\designerscripts\LS_itemremito2.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\designerscripts\LS_pantalla_principal.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\designerscripts\LS_planilladetalle.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\designerscripts\LS_planillaslistado.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\designerscripts\LS_prueba.dex
+C:\PROYECTO SIGMA\Gestion de Distribucion Mobile\Gestion de Distribucion Mobile\Objects\dexed\JHS\zxScannerLiveView\designerscripts\LS_searchtemplate.dex
